@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>MuzakMaker- Smooth Jazz</title>
+</head>
+<body>
+    <header>
+        <h1>Smooth Jazz</h1>
+        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+    </header>
+    <nav>
+        <h2>Main Navigation</h2>
+        <input type="checkbox" id="dropdown" />
+        <label for="dropdown"><span></span></label>
+        <ul>
+          <li><a href="#home">MuzakMaker</a></li>
+          <li><a href="#trending">Trending <br />Songs</a></li>
+          <li><a href="#playlists">Your <br />Playlists</a></li>
+          <li><a href="#curated">Curated <br />Playlists</a></li>
+          <li><a href="user"><img src="images/duke-silver.png" alt="user profile picture"></a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="trending">
+            <h2>Trending Songs</h2>
+            <!-- I've added song sections for each song. For brevity, only two examples are shown. -->
+            <article>
+                <img src="aloma-cover.png" alt="Aloma by Artist Cali">
+                <h3>Aloma</h3>
+                <p>Artist Cali</p>
+                <audio controls>
+                    <source src="aloma.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+
+            <article>
+                <img src="my-road-cover.png" alt="My Road by Artist Nesterouk">
+                <h3>My Road</h3>
+                <p>Artist Nesterouk</p>
+                <audio controls>
+                    <source src="my-road.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+
+            <!-- ... add more songs using the same pattern -->
+
+            <a href="#">More trending</a>
+        </section>
+
+        <section id="playlists">
+            <h2>Your Playlists</h2>
+            <!-- Here's an example for playlist cards -->
+            <article>
+                <img src="best-of-2020-cover.png" alt="Best of 2020 Playlist">
+                <h3>Best of 2020</h3>
+                <p>The music that got you through the lock down.</p>
+            </article>
+            
+            <!-- ... add more playlist cards using the same pattern -->
+
+            <a href="#">All your playlists</a>
+        </section>
+
+        <section id="curated">
+            <h2>Curated Playlists</h2>
+            <!-- Here's an example for curated playlist cards -->
+            <article>
+                <img src="boozy-brunch-cover.png" alt="Boozy Brunch Playlist">
+                <h3>Boozy Brunch</h3>
+                <p>Light up the afternoon with these energetic hits.</p>
+            </article>
+            
+            <!-- ... add more curated playlist cards using the same pattern -->
+
+            <a href="#">More curated</a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2022 Smooth Jazz</p>
+    </footer>
+</body>
+</html>
